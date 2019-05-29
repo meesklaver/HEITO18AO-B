@@ -33,6 +33,6 @@ $db = new PDO($connectStr, $username, $password);
     header("Location: index.php");
 } else {
     echo "Niet genoeg info om toe te voegen";
-    header ("location: create_form.php");
+    header ("location: create_customer_form.php");
 }
 ?>
