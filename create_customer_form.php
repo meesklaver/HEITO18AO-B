@@ -12,6 +12,8 @@
         <input type="text" name="Extratraining"><br>
         <label>Voornaam</label><br>
         <input type="text" name="Voornaam"><br>
+        <label>Tussenvoegsel</label><br>
+        <input type="text" name="Tussenvoegsel"><br>
         <label>Achternaam</label><br>
         <input type="text" name="Achternaam"><br>
         <label>Postadres</label><br>
