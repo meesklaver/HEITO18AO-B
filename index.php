@@ -1,17 +1,7 @@
 <body>
 <a href ="create_form.php">Toevoegen</a>
 <?php
-$host = 'localhost';
-$dbname = 'FCA';
-$username = 'root';
-$password = 'Root';
-
-$connectStr = 'mysql:host=' . $host . ';dbname=' . $dbname . ';charset=utf8';
-$db = new PDO($connectStr, $username, $password);
-
-$sql = "SELECT * FROM Customer";
-$sth = $db->prepare($sql);
-$sth->execute();
+include "script/connectdb.php";
 ?>
 
 <table class = "table">
