@@ -24,7 +24,7 @@ if ($Contributies && $Verhogingcontributies && $Extratraning && $Voornaam && $Ac
 $connectStr = 'mysql:host=' . $host . ';dbname=' . $dbname . ';charset=utf8';
 $db = new PDO($connectStr, $username, $password);
 
-    $sql = "INSERT INTO Custommer (Contributies, Verhogingcontributies, Extratraining, Voornaam, Achternaam, Postadres, Huisnummer, Postcode, Plaats, Telefoonnummer, Email, Leeftijdsgroep, Geboortedatum, Betaald) VALUES (:Contributies, :Verhogingcontributies, :Extratraining, :Voornaam, :Achternaam, :Postadres, :Huisnummer, :Postcode, :Plaats, :Telefoonnummer, :Email, :Leeftijdsgroep, :Geboortedatum, :Betaald)";
+    $sql = "INSERT INTO Customer (Contributies, Verhogingcontributies, Extratraining, Voornaam, Achternaam, Postadres, Huisnummer, Postcode, Plaats, Telefoonnummer, Email, Leeftijdsgroep, Geboortedatum, Betaald) VALUES (:Contributies, :Verhogingcontributies, :Extratraining, :Voornaam, :Achternaam, :Postadres, :Huisnummer, :Postcode, :Plaats, :Telefoonnummer, :Email, :Leeftijdsgroep, :Geboortedatum, :Betaald)";
     $params = array(":Contributies" => "$Contributies", ":Verhogingcontributies" => "$Verhogingcontributies", ":Extratraining" => "$Extratraining", ":Voornaam" => "$Voornaam", ":Achternaam" => "$Achternaam", ":Postadres" => "$Postadres", ":Huisnummer" => "$Huisnummer", ":Postcode" => "$Postcode", ":Plaats" => "$Plaats", ":Telefoonnummer" => "$Telefoonnummer", ":Email" => "$Email", ":Leeftijdsgroep" => "$leeftijdsgroep", ":Geboortedatum" => "$Geboortedatum");
 
     $sth = $db->prepare($sql);
