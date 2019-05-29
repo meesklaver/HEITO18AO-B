@@ -3,6 +3,7 @@ $Contributies = empty($_POST["Contributies"]) ? null : htmlspecialchars($_POST["
 $Verhogingcontributies = empty($_POST["Verhogingcontributies"]) ? null : htmlspecialchars($_POST["Verhogingcontributies"]);
 $Extratraining = empty($_POST["Extratraining"]) ? null : htmlspecialchars($_POST["Extratraining"]);
 $Voornaam = empty($_POST["Voornaam"]) ? null : htmlspecialchars($_POST["Voornaam"]);
+$Tussenvoegsel = empty($_POST["Tussenvoegsel"]) ? null : htmlspecialchars($_POST["Tussenvoegsel"]);
 $Achternaam = empty($_POST["Achternaam"]) ? null : htmlspecialchars($_POST["Achternaam"]);
 $Postadres = empty($_POST["Postadres"]) ? null : htmlspecialchars($_POST["Postadres"]);
 $Huisnummer = empty($_POST["Huisnummer"]) ? null : htmlspecialchars($_POST["Huisnummer"]);
@@ -17,7 +18,7 @@ $Betaald = empty($_POST["Betaald"]) ? null : htmlspecialchars($_POST["Betaald"])
 
 if ($Contributies && $Verhogingcontributies && $Extratraning && $Voornaam && $Achternaam && $Postadres && $Huisnummer && $Postcode && $Plaats && $Telefoonnummer && $Email && $Leeftijdsgroep && $Geboortedatum && $Betaald) {
     $host = 'localhost';
-    $dbname = 'FCH';
+    $dbname = 'FCA';
     $username = 'root';
     $password = 'Root';
 
