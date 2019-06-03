@@ -1,4 +1,4 @@
-# HEITO18AO-B
+HEITO18AO-B
 
-# Database application voor voetbalvereniging FCA.
-# Dit is een project voor portfollio (2019)
+Database application voor voetbalvereniging FCA.
+Dit is een project voor portfolio (2019)
