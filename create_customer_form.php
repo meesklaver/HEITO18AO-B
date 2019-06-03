@@ -33,7 +33,7 @@
         <label>geboortedatum</label><br>
         <input type="text" name="Geboortedatum"><br>
         <label>Betaald of niet?</label><br>
-        <input type="checkbox" name="betaald"><br>
+        <input type="checkbox" name="Betaald"><br>
         <input type="submit" name="Toevoegen">
     </form>
 </fieldset>
