@@ -36,7 +36,7 @@ include "script/connectdb.php";
             <th>Geboorte datum</th>
             <th>Contributie</th>
             <th>Verhoging Contributies</th>
-            <th>Extra Training</th>
+            <th>Extra Training in uren</th>
             <th>wel/niet betaald</th>
         </tr>
     </thread>
